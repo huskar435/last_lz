@@ -11,7 +11,7 @@ def plav(plotn):
 
 #Главная функция
 def main():
-    mas = float(input("Введите массу тела: "))
+    m = float(input("Введите массу тела: "))
     v = float(input("Введите объём погружённой части объекта: "))
     plotn = float(input("Введите плотность: "))
     plav(plotn)
